@@ -13,13 +13,10 @@ Syntax for useradd
 useradd [options] [User_name]
 
 Options:
-  -b, --base-dir BASE_DIR       base directory for the home directory of the
-                                new account
-  -d, --home-dir HOME_DIR       home directory of the new account
-  -e, --expiredate EXPIRE_DATE  expiration date of the new account
-  -f, --inactive INACTIVE       password inactivity period of the new account
-  -g, --gid GROUP               name or ID of the primary group of the new
-                                account
+
+  -d,  home directory of the new account
+  -e,  expiration date of the new account
+  -g,  name or ID of the primary group of the new account
   -G, --groups GROUPS           list of supplementary groups of the new
                                 account
   -m, --create-home             create the user's home directory
